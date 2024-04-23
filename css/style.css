@@ -54,6 +54,9 @@ body {
 }
 .hero {
     background: rgb(47, 48, 58);
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
 }
 .button-hero-title {
     color: var(--white-color);
@@ -83,6 +86,9 @@ body {
 }
 .ourteam {
     background-color: rgb(245, 244, 250);
+    width: 1600px;
+    height: 648px;
+    margin: 0 auto;
 }
 .signature-title {
     font-size: 16px;
@@ -107,6 +113,9 @@ body {
 }
 .footer {
     background-color:  rgb(47, 48, 58);
+    width: 1600px;
+    height: 252px;
+    margin: 0 auto;
 }
 .footer-Web {
     color: var(--blue-color);
@@ -215,6 +224,7 @@ body {
 .portfolio-filter-button:is(:hover, :focus) {
     cursor: pointer;
     background-color: var(--blue-color);
+    color: var(--white-color);
 }
 .hero-title {
     margin-bottom: 30px;
@@ -240,5 +250,37 @@ body {
 }
 .portfolio {
     padding-top: 94px;
+}
+.header {
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.portfolio-list-item {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    border-left: 1px solid rgb(238, 238, 238);
+    border-right: 1px solid rgb(238, 238, 238);
+}
+.portfolio-item {
+    border:none;
+    background-color: rgb(245, 244, 250);
+    padding: 6px 25px;
+    border-radius: 4px;
+}
+.header-nav-link {
+    color: var(--blak-color);
+}
+.header-contact-link {
+    color: var(--blak-color);
+}
+.footer {
+    padding-top: 60px;
+}
+.footer-Studio {
+    padding-bottom: 20px;
+}
+.ourteam-title {
+    padding-top: 94px;
+}
+.footer-contact-link {
+    color: var(--address-color);
 }
 
